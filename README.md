@@ -11,5 +11,5 @@ If you want to show **View Price** button on the product page when customer is n
         $("#customer_login_link").attr("href",logi_uri)
       }
 </script>
-
+&nbsp;
 **Note**- Just add the id in your button or a tag to work this code. Make sure jQuery is added in your website or store.
