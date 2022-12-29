@@ -2,6 +2,7 @@
 
 If you want to show **View Price** button on the product page when customer is not logged in then you can use this below code.
 
+<pre>
 <script type="text/javascript">
       var url_array = window.location.href.split('/');
       var length_array = url_array.length;
@@ -11,5 +12,6 @@ If you want to show **View Price** button on the product page when customer is n
         $("#customer_login_link").attr("href",logi_uri)
       }
 </script>
-&nbsp;
-**Note**- Just add the id in your button or a tag to work this code. Make sure jQuery is added in your website or store.
+</pre>
+
+**Note**- Just add the **id** in your button or a tag to work this code. Make sure **jQuery** is added in your website or store.
