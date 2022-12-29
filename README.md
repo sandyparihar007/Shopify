@@ -1,17 +1,7 @@
-# shopify-redirect
+# Shopify Related Stuffs
 
-If you want to show **View Price** button on the product page when customer is not logged in then you can use this below code.
+**Here is the small customizations solutions which i had experienced and collected to this repository.**
 
-<pre>
-<script type="text/javascript">
-      var url_array = window.location.href.split('/');
-      var length_array = url_array.length;
-      if(url_array[length_array-1] !='login')
-      {
-        var logi_uri = "/account/login?checkout_url="+window.location.href;
-        $("#customer_login_link").attr("href",logi_uri)
-      }
-</script>
-</pre>
+I hope guys you will get the solution of your problems. :)
 
-**Note**- Just add the **id** in your button or <a> tag to work this code. Make sure **jQuery** is added in your website or store.
+Stay Happy, Stay Healthy
