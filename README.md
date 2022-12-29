@@ -14,4 +14,4 @@ If you want to show **View Price** button on the product page when customer is n
 </script>
 </pre>
 
-**Note**- Just add the **id** in your button or a tag to work this code. Make sure **jQuery** is added in your website or store.
+**Note**- Just add the **id** in your button or <a> tag to work this code. Make sure **jQuery** is added in your website or store.
